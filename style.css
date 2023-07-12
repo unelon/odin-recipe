@@ -12,6 +12,10 @@ img {
 	border-radius: 10px;
 }
 
+a {
+	text-decoration: none;
+}
+
 .image {
 	max-width: 300px;
 }
