@@ -3,7 +3,7 @@ const mockData = [
 		"title": "Chuck Norris' Kickin' Chicken Tacos",
 		"id": "001",
 		"short_description": "Tacos that pack a punch, just like Chuck Norris",
-		"link": "/kickin-tacos.html",
+		"link": "/odin-recipe/kickin-tacos.html",
 		"image": "https://images.pexels.com/photos/2092507/pexels-photo-2092507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 		"ingredients": [
 			"1 lb. chicken breast, diced",
@@ -35,7 +35,7 @@ const mockData = [
 		"title": "The Roundhouse Pasta",
 		"id": "002",
 		"short_description": "A pasta dish that will roundhouse kick your taste buds",
-		"link": "/roundhouse-pasta.html",
+		"link": "/odin-recipe/roundhouse-pasta.html",
 		"image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 		"ingredients": [
 			"8 oz. spaghetti",
@@ -63,7 +63,7 @@ const mockData = [
 		"title": "Chuck Norris' Ultimate Steak",
 		"id": "003",
 		"short_description": "The steak that will make you feel invincible, just like Chuck Norris",
-		"link": "/ultimate-steak.html",
+		"link": "/odin-recipe/ultimate-steak.html",
 		"image": "https://images.pexels.com/photos/3535383/pexels-photo-3535383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 		"ingredients": [
 			"2 ribeye steaks",
@@ -90,7 +90,7 @@ const mockData = [
 		"title": "Chuck Norris' Dynamite Nachos",
 		"id": "004",
 		"short_description": "Explosively delicious nachos that will blow you away",
-		"link": "/dynamite-nachos.html",
+		"link": "/odin-recipe/dynamite-nachos.html",
 		"image": "https://media.istockphoto.com/id/460140985/photo/dynamite.jpg?b=1&s=612x612&w=0&k=20&c=nqfAV2uttTKMbFvQM-JX1JG0N8Qv1xb2-ZBbBnrIGIA=",
 		"ingredients": [
 			"1 bag tortilla chips",
@@ -121,7 +121,7 @@ const mockData = [
 		"title": "Chuck Norris' Power-Packed Smoothie",
 		"id": "005",
 		"short_description": "A nutritious and energizing smoothie to unleash your inner strength",
-		"link": "/power-packed-smoothie.html",
+		"link": "/odin-recipe/power-packed-smoothie.html",
 		"image": "https://images.pexels.com/photos/1346347/pexels-photo-1346347.jpeg?auto=compress&cs=tinysrgb&w=1600",
 		"ingredients": [
 			"1 ripe banana",
