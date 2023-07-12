@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chuck Norris Favourite Food</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+		<div style="text-align: center; margin-bottom: 100px" class="container flex col align-items-center">
+			<h1 id="title">Chuck Norris favourite food</h1>
+			<img id="image" src="./images/chuck.jpg" width="400" />
+			<strong><h2 id="short" style="margin-top:50px"></h2></strong>
+			<ul id="ingredients" style="text-align: left"></ul>
+			<br />
+			<div id="instructions"></div>
+		</div>
+
+		<script src="mockdata.js"></script>
+		<script type="text/javascript">
+			
+		const data = mockData[2];
+		const ingredients = data.ingredients;
+
+		const listIngredients = ingredients.map((e) => `
+				<li>${e}</li>
+		`);
+
+		document.getElementById("title").innerHTML=data.title;
+		document.getElementById("image").src=data.image;
+		document.getElementById("short").innerHTML=data.short_description;
+		document.getElementById("instructions").innerHTML=data.instructions;
+		document.getElementById("ingredients").innerHTML=listIngredients.join('');
+
+
+		</script>
+  </body>
+</html>

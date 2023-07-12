@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chuck Norris Favourite Food</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+		<div class="container flex col align-items-center">
+			<h1>Chuck Norris favourite food</h1>
+			<img class="image" src="./images/chuck.jpg" />
+			<div id="categories" style="margin-top:50px"></div>
+		</div>
+
+		<script src="mockdata.js"></script>
+		<script type="text/javascript">
+			
+
+		const data = mockData.map((e) => `
+			<a href=${e.link}>
+				<div class="card flex">
+					<div style="margin-right:20px">
+						<image src=${e.image} width="120"/>
+					</div>
+					<div>
+						<div class="category">
+							<strong>${e.title}</strong>
+						</div>
+						<div>${e.short_description}</div>
+					</div>
+				</div>
+			</a>
+			`);
+
+			document.getElementById('categories').innerHTML = data.join('');
+		
+		</script>
+  </body>
+</html>
